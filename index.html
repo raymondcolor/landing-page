@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./build/css/style.css" />
+  <link rel="stylesheet" href="./build//css/style.css" />
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <title>Relpay</title>
@@ -13,45 +13,42 @@
 
 <body>
   <!-- navigation bar -->
-  <nav class="w-full absolute h-28 flex items-center bg-NBlue">
-    <div class="w-10/12 m-auto md:flex md:items-center md:justify-between">
-      <div class="flex justify-between items-center">
-        <span class="text-2xl font-[Poppins] cursor-pointer">
-          <img class="h-10 inline" src="./build//images/icons/relpay-logo.png" />
-        </span>
+  <nav class="w-full absolute h-28 flex items-center bg-NBlue ">
+    <div class="w-10/12 m-auto  md:flex md:items-center md:justify-between">
+    <div class="flex justify-between items-center">
+      <span class="text-2xl font-[Poppins] cursor-pointer">
+        <img class="h-10 inline" src="../build//images/icons/relpay-logo.png" />
 
-        <span class="text-3xl cursor-pointer mx-2 md:hidden block text-white">
-          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
-        </span>
-      </div>
+      </span>
 
-      <ul
-        class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-NBlue w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-        <li class="mx-4 my-6 md:my-0">
-          <a href="#"
-            class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Welcome</a>
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a href="#"
-            class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Features</a>
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Contact
-            Us</a>
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Sign
-            Up</a>
-        </li>
-        <li class="mx-4 my-6 md:my-0 md:hidden">
-          <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Sign
-            In</a>
-        </li>
-
-        <a class="flex justify-center items-center text-sm text-white px-6 py-1 rounded-lg border-solid border-2 border-green hover:bg-green max-sm:hidden transition-all ease-in duration-500"
-          href="#">Sign In</a>
-      </ul>
+      <span class="text-3xl cursor-pointer mx-2 md:hidden block text-white">
+        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+      </span>
     </div>
+
+    <ul
+      class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-NBlue w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Welcome</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Features</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Contact Us</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Sign Up</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0 md:hidden">
+        <a href="#" class="text-white px-3 py-2 text-sm hover:text-green transition-all ease-in duration-500">Sign In</a>
+      </li>
+
+      <a class="flex justify-center items-center text-sm text-white px-6 py-1 rounded-lg border-solid border-2 border-green hover:bg-green max-sm:hidden max-md:hidden transition-all ease-in duration-500 "
+        href="#">Sign In</a>
+      
+    </ul>
+  </div>
   </nav>
 
   <!-- End of navigation bar -->
@@ -59,14 +56,14 @@
   <section class="w-full z--1 h-screen max-sm:h-auto bg-NBlue max-sm:pt-28">
     <div class="w-10/12 max-sm:w-full h-full flex max-sm:flex-col m-auto max-sm:m-0 max-sm:px-5">
       <div
-        class="w-8/12 max-sm:w-full h-screen max-sm:h-auto flex justify-center max-sm:justify-normal items-center max-sm:items-start">
+        class="w-8/12 max-sm:w-full max-md:w-6/12 h-screen max-sm:h-auto flex justify-center max-sm:justify-normal items-center max-sm:items-start">
         <div>
-          <h1 class="text-5xl max-sm:text-3xl font-bold text-white">
+          <h1 class="text-5xl max-sm:text-3xl max-md:text-3xl font-bold text-white">
             Welcome to Our <br />
             <span class="text-green"> Secure Payment Solutions </span> for
             Personal & Business Needs
           </h1>
-          <p class="text-white mt-5 mb-8 w-8/12 max-sm:w-auto">
+          <p class="text-white mt-5 mb-8 w-8/12 max-sm:w-auto max-md:w-auto ">
             With Relpay, you can now conveniently send money, buy airtime &
             data, pay for utilities from the comfort of your own home, savings
             and can also manage batch transfers.
@@ -75,8 +72,8 @@
           <a class="text-white bg-green px-10 py-3 rounded-lg" href="#">Create Account</a>
         </div>
       </div>
-      <div class="w-4/12 max-sm:w-full h-full flex items-end max-sm:mt-10">
-        <img class="h-auto w-10/12" src="./build/images/lady.png" alt="relpay" />
+      <div class="w-4/12 max-sm:w-full max-md:w-6/12 h-full flex items-end max-sm:mt-10">
+        <img class="h-auto w-10/12" src="../build/images/lady.png" alt="relpay" />
       </div>
     </div>
   </section>
@@ -85,36 +82,31 @@
   <section class="bg-green h-auto w-full py-20 max-sm:py-10 mb-10">
     <div class="w-10/12 max-sm:w-full flex max-sm:flex-col m-auto max-sm:m-0 max-sm:px-5">
       <div class="w-6/12 max-sm:w-full max-sm:mb-10">
-        <h1 class="text-6xl max-sm:text-4xl text-white font-bold">
+        <h1 class="text-6xl max-sm:text-4xl max-md:text-3xl text-white font-bold">
           Awesome <br />
           <span class="text-NBlue">Features</span>
         </h1>
       </div>
       <div class="w-6/12 max-sm:w-full flex flex-col gap-4 max-sm:gap-1">
         <div class="flex h-10 gap-5 items-center">
-          <img class="h-6 max-sm:h-4 w-auto" src="./build/images/arrowicon.png" alt="" />
-          <a class="text-white text-2xl max-sm:text-xl hover:text-NBlue transition-all ease-in duration-500"
-            href="#batch">Batch Transfers</a>
+          <img class="h-6 max-sm:h-4 w-auto" src="../build/images/arrowicon.png" alt="" />
+          <a class="text-white text-2xl max-sm:text-xl max-md:text-xl hover:text-NBlue transition-all ease-in duration-500" href="#batch">Batch Transfers</a>
         </div>
         <div class="flex h-10 gap-5 items-center">
-          <img class="h-6 max-sm:h-4 w-auto" src="./build/images/arrowicon.png" alt="" />
-          <a class="text-white text-2xl max-sm:text-xl hover:text-NBlue transition-all ease-in duration-500"
-            href="#mobile">Mobile Money Transfers</a>
+          <img class="h-6 max-sm:h-4 w-auto" src="../build/images/arrowicon.png" alt="" />
+          <a class="text-white text-2xl max-sm:text-xl max-md:text-xl hover:text-NBlue transition-all ease-in duration-500" href="#mobile">Mobile Money Transfers</a>
         </div>
         <div class="flex h-10 gap-5 items-center">
-          <img class="h-6 max-sm:h-4 w-auto" src="./build/images/arrowicon.png" alt="" />
-          <a class="text-white text-2xl max-sm:text-xl hover:text-NBlue transition-all ease-in duration-500"
-            href="#wallet">Secure Online Wallet</a>
+          <img class="h-6 max-sm:h-4 w-auto" src="../build/images/arrowicon.png" alt="" />
+          <a class="text-white text-2xl max-sm:text-xl max-md:text-xl hover:text-NBlue transition-all ease-in duration-500" href="#wallet">Secure Online Wallet</a>
         </div>
         <div class="flex h-10 gap-5 items-center">
-          <img class="h-6 max-sm:h-4 w-auto" src="./build/images/arrowicon.png" alt="" />
-          <a class="text-white text-2xl max-sm:text-xl hover:text-NBlue transition-all ease-in duration-500"
-            href="#utilities">Pay For Utilities</a>
+          <img class="h-6 max-sm:h-4 w-auto" src="../build/images/arrowicon.png" alt="" />
+          <a class="text-white text-2xl max-sm:text-xl max-md:text-xl hover:text-NBlue transition-all ease-in duration-500" href="#utilities">Pay For Utilities</a>
         </div>
         <div class="flex h-10 gap-5 items-center">
-          <img class="h-6 max-sm:h-4 w-auto" src="./build/images/arrowicon.png" alt="" />
-          <a class="text-white text-2xl max-sm:text-xl hover:text-NBlue transition-all ease-in duration-500"
-            href="#team">Team Collaboration</a>
+          <img class="h-6 max-sm:h-4 w-auto" src="../build/images/arrowicon.png" alt="" />
+          <a class="text-white text-2xl max-sm:text-xl max-md:text-xl hover:text-NBlue transition-all ease-in duration-500" href="#team">Team Collaboration</a>
         </div>
       </div>
     </div>
@@ -125,12 +117,12 @@ Feature 1. Batch Transfer
  -->
   <section class="h-auto w-full py-10" id="batch">
     <div
-      class="w-10/12 max-sm:w-full flex max-sm:flex-col m-auto max-sm:m-0 max-sm:px-5 items-center max-sm:items-start">
-      <div class="w-6/12 max-sm:w-full flex justify-center max-sm:justify-normal max-sm:mb-10">
-        <img class="w-96 max-sm:w-56" src="./build/images/batch.png" alt="relpay" />
+      class="w-10/12 max-md:w-10/12 max-sm:w-full flex max-sm:flex-col m-auto max-sm:m-0 max-sm:px-5 items-center max-sm:items-start">
+      <div class="w-6/12 max-md:pr-10 max-sm:w-full flex justify-center max-sm:justify-normal max-sm:mb-10">
+        <img class="w-96 max-sm:w-56" src="../build/images/batch.png" alt="relpay" />
       </div>
       <div class="w-6/12 max-sm:w-full">
-        <h1 class="text-4xl text-NBlue font-semibold mb-5">
+        <h1 class="text-4xl text-NBlue max-md:text-3xl font-semibold mb-5">
           Batch Transfers
         </h1>
         <p>
@@ -151,7 +143,7 @@ Feature 2. Mobile money Transfers
     <div
       class="w-10/12 max-sm:w-full flex max-sm:flex-col-reverse m-auto max-sm:m-0 max-sm:px-5 items-center max-sm:items-start">
       <div class="w-6/12 max-sm:w-full">
-        <h1 class="text-4xl text-NBlue font-semibold mb-5">
+        <h1 class="text-4xl max-md:text-3xl text-NBlue font-semibold mb-5">
           Mobile money Transfers
         </h1>
         <p>
@@ -161,7 +153,7 @@ Feature 2. Mobile money Transfers
         </p>
       </div>
       <div class="w-6/12 max-sm:w-full flex justify-center max-sm:justify-normal max-sm:mb-10">
-        <img class="w-96 max-sm:w-60" src="./build/images/mobilemoney.png" alt="relpay" />
+        <img class="w-96 max-sm:w-60" src="../build/images/mobilemoney.png" alt="relpay" />
       </div>
     </div>
   </section>
@@ -172,11 +164,11 @@ Feature 3. Secure Online Wallet
   <section class="h-auto w-full py-10" id="wallet">
     <div
       class="w-10/12 max-sm:w-full flex max-sm:flex-col m-auto max-sm:m-0 max-sm:px-5 items-center max-sm:items-start">
-      <div class="w-6/12 max-sm:w-full flex justify-center max-sm:justify-normal max-sm:mb-10">
-        <img class="w-96 max-sm:w-60 h-auto" src="./build/images/wallet.png" alt="relpay" />
+      <div class="w-6/12 max-md:pr-10 max-sm:w-full flex justify-center max-sm:justify-normal max-sm:mb-10">
+        <img class="w-96 max-sm:w-60 h-auto" src="../build/images/wallet.png" alt="relpay" />
       </div>
       <div class="w-6/12 max-sm:w-full">
-        <h1 class="text-4xl text-NBlue font-semibold mb-5">
+        <h1 class="text-4xl max-md:text-3xl text-NBlue font-semibold mb-5">
           Secure Online Wallet
         </h1>
         <p>
@@ -196,7 +188,7 @@ Feature 4.Pay For Utilities
     <div
       class="w-10/12 max-sm:w-full flex m-auto max-sm:m-0 max-sm:px-5 items-center max-sm:items-start max-sm:flex-col-reverse">
       <div class="w-6/12 max-sm:w-full">
-        <h1 class="text-4xl text-NBlue font-semibold mb-5">
+        <h1 class="text-4xl max-md:text-3xl text-NBlue font-semibold mb-5">
           Pay For Utilities
         </h1>
         <p>
@@ -205,7 +197,7 @@ Feature 4.Pay For Utilities
         </p>
       </div>
       <div class="w-6/12 max-sm:w-full flex justify-center max-sm:justify-normal">
-        <img class="w-96 max-sm:w-60 h-auto" src="./build/images/utilities.png" alt="relpay" />
+        <img class="w-96 max-sm:w-60 h-auto" src="../build/images/utilities.png" alt="relpay" />
       </div>
     </div>
   </section>
@@ -214,13 +206,12 @@ Feature 4.Pay For Utilities
 Feature 5. Manage your Organization users.(Team collaboration)
  -->
   <section class="h-auto w-full py-10 max-sm:py-0" id="team">
-    <div
-      class="w-10/12 max-sm:w-full flex max-sm:flex-col m-auto max-sm:m-0 items-center max-sm:items-start max-sm:px-5">
+    <div class="w-10/12 max-sm:w-full flex max-sm:flex-col m-auto max-sm:m-0  items-center max-sm:items-start max-sm:px-5 " >
       <div class="w-6/12 max-sm:w-full flex justify-center max-sm:mb-10">
-        <img class="w-300 max-sm:w-200 h-auto" src="./build/images/laptop.png" alt="relpay" />
+        <img class="w-300 max-sm:w-200 h-auto" src="../build/images/laptop.png" alt="relpay" />
       </div>
       <div class="w-6/12 max-sm:w-full">
-        <h1 class="text-4xl text-NBlue font-semibold mb-5 leading-tight">
+        <h1 class="text-4xl max-md:text-3xl text-NBlue font-semibold mb-5 leading-tight">
           Manage your Organization users.(Team collaboration)
         </h1>
         <p>
@@ -237,12 +228,12 @@ Feature 5. Manage your Organization users.(Team collaboration)
     <div
       class="w-10/12 max-sm:w-full flex max-sm:flex-col-reverse m-auto max-sm:m-0 max-sm:px-5 items-center max-sm:items-start">
       <div class="w-7/12 max-sm:w-full pr-10 max-sm:pr-0">
-        <h1 class="text-5xl max-sm:text-3xl text-green font-semibold leading-tight">
+        <h1 class="text-5xl max-md:text-3xl max-sm:text-3xl text-green font-semibold leading-tight">
           Secure, Reliable And Fast Payment Solution
         </h1>
       </div>
       <div class="w-5/12 max-sm:w-full flex justify-center">
-        <img class="w-96 max-sm:w-69 max-sm:w-full" src="./build/images/security.png" alt="reply" />
+        <img class="w-96 max-sm:w-69 max-sm:w-full" src="../build/images/security.png" alt="reply" />
       </div>
     </div>
   </section>
@@ -250,16 +241,16 @@ Feature 5. Manage your Organization users.(Team collaboration)
   <!-- CLient section -->
   <section class="w-full my-20 max-sm:my-10">
     <div class="w-10/12 max-sm:12/12 flex flex-col items-center m-auto gap-9">
-      <h1 class="text-5xl max-sm:text-3xl font-semibold text-NBlue text-center leading-tight">
+      <h1 class="text-5xl max-md:text-3xl max-sm:text-3xl font-semibold text-NBlue text-center leading-tight">
         Trusted and Used <br />
         By Our Clients
       </h1>
       <div class="w-full flex gap-3 flex-wrap justify-evenly">
-        <img class="h-32" src="./build/images/clientLogos/gurdian.png" alt="" />
-        <img class="h-32" src="./build/images/clientLogos/spidd.png" alt="" />
+        <img class="h-32" src="../build/images/clientLogos/gurdian.png" alt="" />
+        <img class="h-32" src="../build/images/clientLogos/spidd.png" alt="" />
         <img class="h-32" class="h-32" src="../build/images/clientLogos/nifaed.png" alt="" />
-        <img class="h-32" src="./build/images/clientLogos/cci.jpg" alt="" />
-        <img class="h-32" src="./build/images/clientLogos/justice.png" alt="" />
+        <img class="h-32" src="../build/images/clientLogos/cci.jpg" alt="" />
+        <img class="h-32" src="../build/images/clientLogos/justice.png" alt="" />
       </div>
 
       <a class="text-white bg-green px-10 py-3 rounded-lg" href="#">Create Account</a>
@@ -270,69 +261,64 @@ Feature 5. Manage your Organization users.(Team collaboration)
   <section class="w-full py-10 max-sm:py-5">
     <div class="w-10/12 max-sm:w-full flex flex-col m-auto max-sm:m-0 max-sm:px-5 justify-center items-center">
       <h1
-        class="text-5xl text-center max-sm:text-center max-sm:mb-10 max-sm:text-3xl text-NBlue font-semibold leading-tight">
+        class="text-5xl max-md:text-3xl text-center max-sm:text-center max-sm:mb-10  max-sm:text-3xl text-NBlue font-semibold leading-tight">
         Our Partners
       </h1>
 
-      <div class="flex items-center gap-5 max-sm:flex-col">
-        <img class="h-20 max-sm:h-14" src="./build//images//mtn.png" alt="mtn-relpay" />
-        <img class="h-32 max-sm:h-28" src="./build//images/airtel.png" alt="airtel-relpay" />
+      <div class="flex items-center gap-5 max-sm:flex-col ">
+        <img class="h-20 max-sm:h-14" src="../build//images//mtn.png" alt="mtn-relpay" />
+        <img class="h-32 max-sm:h-28" src="../build//images/airtel.png" alt="airtel-relpay" />
       </div>
     </div>
   </section>
 
   <!-- Footer section -->
   <section class="flex w-full flex-row mt-10 max-sm:flex-col">
-    <div class="w-6/12 max-sm:w-full bg-green px-20 py-20 max-sm:px-5 max-sm:py-7">
+    <div class="w-6/12 max-sm:w-full bg-green px-20 py-20 max-sm:px-5 max-sm:py-7 max-md:px-4 max-md:py-6">
       <h2 class="text-3xl text-NBlue font-semibold mb-5">Contact Us</h2>
       <div class="flex flex-col gap-5">
         <div class="flex items-center gap-5">
-          <img class="h-6" src="./build//images/icons/icon-location.png" alt="relpay" />
+          <img class="h-6" src="../build//images/icons/icon-location.png" alt="relpay" />
           <p class="text-white">
             Jinja Rd, Nic Building, 4th floor, Kampala - Uganda
           </p>
         </div>
         <div class="flex items-center gap-5">
-          <img class="h-6" src="./build//images/icons/icon-phone.png" alt="relpay" />
+          <img class="h-6" src="../build//images/icons/icon-phone.png" alt="relpay" />
           <p class="text-white">+256-787-206277</p>
         </div>
         <div class="flex items-center gap-5">
-          <img class="w-6" src="./build//images/icons/icon-email.png" alt="relpay" />
+          <img class="w-6" src="../build//images/icons/icon-email.png" alt="relpay" />
           <p class="text-white">support@relworx.com</p>
         </div>
         <div class="flex items-center gap-5">
-          <img class="h-6" src="./build//images/icons/icon-clock.png" alt="relpay" />
+          <img class="h-6" src="../build//images/icons/icon-clock.png" alt="relpay" />
           <p class="text-white">Working hours: 9AM-5PM</p>
         </div>
       </div>
     </div>
-    <div class="w-6/12 max-sm:w-full bg-NBlue flex flex-col py-20 px-20 max-sm:px-5 max-sm:py-7">
+    <div class="w-6/12 max-sm:w-full bg-NBlue flex flex-col py-20 px-20 max-sm:px-5 max-sm:py-7 max-md:px-4 max-md:py-6">
       <h2 class="text-3xl text-green font-semibold mb-5">Relpay Features</h2>
-      <a class="text-white text-2xl max-sm:text-xl hover:text-green transition-all ease-in duration-500"
-        href="#batch">Batch Transfers</a>
-      <a class="text-white text-2xl max-sm:text-xl hover:text-green transition-all ease-in duration-500"
-        href="#mobile">Mobile Money Transfers</a>
-      <a class="text-white text-2xl max-sm:text-xl hover:text-green transition-all ease-in duration-500"
-        href="#wallet">Secure Online Wallet</a>
-      <a class="text-white text-2xl max-sm:text-xl hover:text-green transition-all ease-in duration-500"
-        href="#utilities">Pay For Utilities</a>
-      <a class="text-white text-2xl max-sm:text-xl hover:text-green transition-all ease-in duration-500"
-        href="#team">Team Collaboration</a>
+      <a class="text-white text-2xl max-md:text-xl max-sm:text-xl hover:text-green transition-all ease-in duration-500" href="#batch">Batch Transfers</a>
+      <a class="text-white text-2xl max-md:text-xl max-sm:text-xl hover:text-green transition-all ease-in duration-500" href="#mobile">Mobile Money Transfers</a>
+      <a class="text-white text-2xl max-md:text-xl max-sm:text-xl hover:text-green transition-all ease-in duration-500" href="#wallet">Secure Online Wallet</a>
+      <a class="text-white text-2xl  max-md:text-xl max-sm:text-xl hover:text-green transition-all ease-in duration-500" href="#utilities">Pay For Utilities</a>
+      <a class="text-white text-2xl max-md:text-xl max-sm:text-xl hover:text-green transition-all ease-in duration-500" href="#team">Team Collaboration</a>
     </div>
   </section>
 
-  <script>
-    function Menu(e) {
-      let list = document.querySelector('ul');
-      e.name === 'menu'
-        ? ((e.name = 'close'),
-          list.classList.add('top-[80px]'),
-          list.classList.add('opacity-100'))
-        : ((e.name = 'menu'),
-          list.classList.remove('top-[80px]'),
-          list.classList.remove('opacity-100'));
-    }
-  </script>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector('ul');
+        e.name === 'menu'
+          ? ((e.name = 'close'),
+            list.classList.add('top-[80px]'),
+            list.classList.add('opacity-100'))
+          : ((e.name = 'menu'),
+            list.classList.remove('top-[80px]'),
+            list.classList.remove('opacity-100'));
+      }
+    </script>
 </body>
 
 </html>
