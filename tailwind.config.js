@@ -8,7 +8,7 @@ module.exports = {
         NBlue: '#1D3B6B',
       },
       fontFamily: {
-        sans: ['Roboto'],
+        sans: ['Roboto', 'system-ui', 'sans-serif'],
       },
       height: {
         '400': '25rem',
